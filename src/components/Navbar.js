@@ -23,7 +23,7 @@ const Navbar = () => {
     <nav className="bg-orange-700 text-white">
       <div className="container mx-auto px-6 py-4 flex justify-between items-center">
         <div className="text-2xl font-bold">
-          <a href="#" className="hover:text-gray-300">Cruzy Projects</a>
+          <a href="#" className="hover:text-gray-300">WeldPlumb Renovations</a>
         </div>
         <div className="hidden md:flex space-x-6">
           <a href="/" className={`nav-item ${isActive('/')}`}>Home</a>

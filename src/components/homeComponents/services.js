@@ -1,6 +1,6 @@
 import React from "react";
 import Services from "../../assets/images/Plumbing.jpeg";
-import { FaWrench, FaHome, FaThLarge, FaTint } from "react-icons/fa";
+import { FaWrench, FaPaintRoller, FaHammer, FaTools } from "react-icons/fa";
 import "../../styles/homeServices.css";
 
 const HomeServices = () => {
@@ -20,24 +20,24 @@ const HomeServices = () => {
                     </div>
                     <div className="bg-white text-orange-700 p-8 rounded-lg shadow-lg hover:shadow-2xl transform transition-transform duration-300 hover:scale-105 animate-floating">
                         <div className="flex items-center mb-4">
-                            <FaHome size={32} className="text-orange-700 mr-4" />
-                            <h3 className="text-2xl font-semibold text-orange-700">Roofing</h3>
+                            <FaTools size={32} className="text-orange-700 mr-4" />
+                            <h3 className="text-2xl font-semibold text-orange-700">Welding</h3>
                         </div>
-                        <p>High-quality roofing services to protect your property and enhance its value.</p>
+                        <p>Professional welding services for structural and decorative projects, ensuring precision and durability.</p>
                     </div>
                     <div className="bg-white text-orange-700 p-8 rounded-lg shadow-lg hover:shadow-2xl transform transition-transform duration-300 hover:scale-105 animate-floating">
                         <div className="flex items-center mb-4">
-                            <FaThLarge size={32} className="text-orange-700 mr-4" />
-                            <h3 className="text-2xl font-semibold text-orange-700">Tiling</h3>
+                            <FaPaintRoller size={32} className="text-orange-700 mr-4" />
+                            <h3 className="text-2xl font-semibold text-orange-700">Painting</h3>
                         </div>
-                        <p>Professional tiling services for a sleek and modern look in any space.</p>
+                        <p>High-quality painting services to refresh and transform your property’s appearance.</p>
                     </div>
                     <div className="bg-white text-orange-700 p-8 rounded-lg shadow-lg hover:shadow-2xl transform transition-transform duration-300 hover:scale-105 animate-floating">
                         <div className="flex items-center mb-4">
-                            <FaTint size={32} className="text-orange-700 mr-4" />
-                            <h3 className="text-2xl font-semibold text-orange-700">Waterproofing</h3>
+                            <FaHammer size={32} className="text-orange-700 mr-4" />
+                            <h3 className="text-2xl font-semibold text-orange-700">Renovations</h3>
                         </div>
-                        <p>Effective waterproofing solutions to safeguard your property from water damage.</p>
+                        <p>Comprehensive renovation services to upgrade and modernize your living or working space.</p>
                     </div>
                 </div>
                 <div className="text-center mt-12">

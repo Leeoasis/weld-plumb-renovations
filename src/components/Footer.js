@@ -11,7 +11,7 @@ const Footer = () => {
             <p>© 2024 All rights reserved.</p>
             <p className="mt-2">Address: 123 Main Street, City, Country</p>
             <p>Phone: +27 123 456 7890</p>
-            <p>Email: info@cruzyprojects.com</p>
+            <p>Email: info@weldplumbrenovations.com</p>
           </div>
           <div className="mt-6 md:mt-0 text-center">
             <h5 className="text-xl font-bold mb-2">Quick Links</h5>
@@ -41,7 +41,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="mt-8 text-center">
-          <p className="text-sm text-gray-400">Designed by Cruzy Projects Web Team</p>
+          <p className="text-sm text-gray-400">Designed by Leslie Gudo</p>
         </div>
       </div>
     </footer>
