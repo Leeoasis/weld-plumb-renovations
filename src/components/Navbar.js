@@ -27,10 +27,9 @@ const Navbar = () => {
         </div>
         <div className="hidden md:flex space-x-6">
           <a href="/" className={`nav-item ${isActive('/')}`}>Home</a>
-          <a href="#services" className={`nav-item ${isActive('/#services')}`}>Services</a>
-          <a href="#projects" className={`nav-item ${isActive('/#projects')}`}>Projects</a>
-          <a href="#testimonials" className={`nav-item ${isActive('/#testimonials')}`}>Testimonials</a>
-          <a href="#contact" className={`nav-item ${isActive('/#contact')}`}>Contact</a>
+          <a href="/services" className={`nav-item ${isActive('/services')}`}>Services</a>
+          <a href="/projects" className={`nav-item ${isActive('/projects')}`}>Projects</a>
+          <a href="/contact" className={`nav-item ${isActive('/contact')}`}>Contact</a>
         </div>
         <div className="md:hidden">
           <button onClick={toggleMenu} className="focus:outline-none">
