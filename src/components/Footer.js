@@ -9,17 +9,17 @@ const Footer = () => {
           <div className="text-center md:text-left">
             <h5 className="text-xl font-bold mb-2">Cruzy Projects</h5>
             <p>© 2024 All rights reserved.</p>
-            <p className="mt-2">Address: 123 Main Street, City, Country</p>
-            <p>Phone: +27 123 456 7890</p>
-            <p>Email: info@weldplumbrenovations.com</p>
+            <p className="mt-2">2 Settler's drive, Edgemead</p>
+            <p>Phone: +27683880693</p>
+            <p>Email: info@weldplumbrenovations.co.za</p>
           </div>
           <div className="mt-6 md:mt-0 text-center">
             <h5 className="text-xl font-bold mb-2">Quick Links</h5>
             <ul>
-              <li><a href="#" className="hover:text-gray-400">Home</a></li>
-              <li><a href="#services" className="hover:text-gray-400">Services</a></li>
-              <li><a href="#projects" className="hover:text-gray-400">Projects</a></li>
-              <li><a href="#contact" className="hover:text-gray-400">Contact</a></li>
+              <li><a href="/" className="hover:text-gray-400">Home</a></li>
+              <li><a href="/services" className="hover:text-gray-400">Services</a></li>
+              <li><a href="/projects" className="hover:text-gray-400">Projects</a></li>
+              <li><a href="/contact" className="hover:text-gray-400">Contact</a></li>
             </ul>
           </div>
           <div className="mt-6 md:mt-0 text-center md:text-right">

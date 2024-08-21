@@ -7,6 +7,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // Import carous
 import { Carousel } from "react-responsive-carousel";
 
 // Import project images
+import ProjectImage from "../assets/images/projects.jpg";
 import Project1_1 from "../assets/images/roofing.jpeg";
 import Project1_2 from "../assets/images/roofing.jpeg";
 import Project1_3 from "../assets/images/roofing.jpeg";
@@ -80,7 +81,7 @@ const ProjectsPage = () => {
             {/* Hero Section */}
             <section
                 className="relative py-24 bg-cover bg-center animate__animated animate__fadeIn"
-                style={{ backgroundImage: `url(${Project1_1})` }}
+                style={{ backgroundImage: `url(${ProjectImage})` }}
             >
                 <div className="absolute inset-0 bg-gradient-to-t from-gray-900 to-transparent opacity-70"></div>
                 <div className="container mx-auto px-6 relative z-10">

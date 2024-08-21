@@ -4,6 +4,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import "animate.css";
 import "../styles/contactPage.css";
+import WhyImage from '../assets/images/contactimage.jpeg'
 
 const ContactPage = () => {
     useEffect(() => {
@@ -14,10 +15,10 @@ const ContactPage = () => {
         <div className="contact-page">
             {/* Hero Section */}
             <section
-                className="relative py-24 bg-cover bg-center animate__animated animate__fadeIn"
-                style={{ backgroundImage: `url("/assets/images/contact-hero.jpg")` }}
+                className="relative bg-gray-100 py-20" style={{ backgroundImage: `url(${WhyImage})`, backgroundSize: 'cover', backgroundPosition: 'center' }}
             >
-                <div className="absolute inset-0 bg-gradient-to-t from-gray-900 to-transparent opacity-70"></div>
+                            <div className="absolute inset-0 bg-olive-green-gradient opacity-60"></div>
+
                 <div className="container mx-auto px-6 relative z-10 text-center text-white">
                     <h1 className="text-5xl font-bold mb-4 animate__animated animate__fadeInUp">
                         Get in Touch
@@ -54,9 +55,9 @@ const ContactPage = () => {
                     {/* Contact Details */}
                     <div className="contact-details w-full lg:w-1/2 shadow-lg rounded-lg p-8 bg-white animate-slow-float">
                         <h2 className="text-3xl font-semibold mb-6">Contact Details</h2>
-                        <p className="mb-4"><strong>Address:</strong> 123 Main Street, Anytown, USA</p>
-                        <p className="mb-4"><strong>Phone:</strong> +1 (555) 123-4567</p>
-                        <p className="mb-4"><strong>Email:</strong> contact@example.com</p>
+                        <p className="mb-4"><strong>Address:</strong> 2 Settler's drive, Edgemead</p>
+                        <p className="mb-4"><strong>Phone:</strong> +27683880693</p>
+                        <p className="mb-4"><strong>Email:</strong> info@weldplumbrenovations.co.za</p>
                         <div id="map" className="w-full h-64 rounded-lg mt-4">
                             {/* Embed Google Map */}
                             <iframe

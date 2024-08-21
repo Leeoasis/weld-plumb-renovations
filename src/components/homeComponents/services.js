@@ -41,7 +41,7 @@ const HomeServices = () => {
                     </div>
                 </div>
                 <div className="text-center mt-12">
-                    <a href="#services" className="inline-block bg-orange-700 text-white font-semibold py-4 px-8 rounded-lg shadow-lg hover:bg-orange-600 transition-colors duration-300">
+                    <a href="/services" className="inline-block bg-orange-700 text-white font-semibold py-4 px-8 rounded-lg shadow-lg hover:bg-orange-600 transition-colors duration-300">
                         See More
                     </a>
                 </div>
