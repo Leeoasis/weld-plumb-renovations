@@ -8,18 +8,44 @@ import { Carousel } from "react-responsive-carousel";
 
 // Import project images
 import ProjectImage from "../assets/images/projects.jpg";
-import Project1_1 from "../assets/images/roofing.jpeg";
-import Project1_2 from "../assets/images/roofing.jpeg";
-import Project1_3 from "../assets/images/roofing.jpeg";
-import Project2_1 from "../assets/images/roofing.jpeg";
-import Project2_2 from "../assets/images/roofing.jpeg";
-import Project2_3 from "../assets/images/roofing.jpeg";
-import Project3_1 from "../assets/images/roofing.jpeg";
-import Project3_2 from "../assets/images/roofing.jpeg";
-import Project3_3 from "../assets/images/roofing.jpeg";
-import Project4_1 from "../assets/images/roofing.jpeg";
-import Project4_2 from "../assets/images/roofing.jpeg";
-import Project4_3 from "../assets/images/roofing.jpeg";
+
+// Mokopane
+import MokImage1 from "../assets/images/projects/Mokopane/mok1.jpg"
+import MokImage2 from "../assets/images/projects/Mokopane/mok2.jpg"
+import MokImage3 from "../assets/images/projects/Mokopane/mok3.jpg"
+import MokImage4 from "../assets/images/projects/Mokopane/mok4.jpg"
+import MokImage5 from "../assets/images/projects/Mokopane/mok5.jpg"
+import MokImage6 from "../assets/images/projects/Mokopane/mok6.jpg"
+
+// Lephalale
+import LepImage1 from "../assets/images/projects/Lephalale/lep1.jpg"
+import LepImage2 from "../assets/images/projects/Lephalale/lep2.jpg"
+import LepImage3 from "../assets/images/projects/Lephalale/lep3.jpg"
+
+//Woodprut Wildlife Estate
+import WoodImage1 from "../assets/images/projects/wildEstate/wild1.jpg"
+import WoodImage2 from "../assets/images/projects/wildEstate/wild2.jpg"
+import WoodImage3 from "../assets/images/projects/wildEstate/wild3.jpg"
+import WoodImage4 from "../assets/images/projects/wildEstate/wild4.jpg"
+import WoodImage5 from "../assets/images/projects/wildEstate/wild5.jpg"
+import WoodImage6 from "../assets/images/projects/wildEstate/wild6.jpg"
+import WoodImage7 from "../assets/images/projects/wildEstate/wild7.jpg"
+import WoodImage8 from "../assets/images/projects/wildEstate/wild8.jpg"
+import WoodImage9 from "../assets/images/projects/wildEstate/wild9.jpg"
+
+// Ealysras 
+import EalysrasImage1 from "../assets/images/projects/Ras/ras1.jpg"
+import EalysrasImage2 from "../assets/images/projects/Ras/ras2.jpg"
+
+// Gyani Limpopo
+import GyaniImage1 from "../assets/images/projects/Gyani/gyan1.jpg"
+import GyaniImage2 from "../assets/images/projects/Gyani/gyan2.jpg"
+import GyaniImage3 from "../assets/images/projects/Gyani/gyan3.jpg"
+import GyaniImage4 from "../assets/images/projects/Gyani/gyan4.jpg"
+import GyaniImage5 from "../assets/images/projects/Gyani/gyan5.jpg"
+
+// Capetown
+import CapetownImage1 from "../assets/images/projects/Capetown/cape1.jpg"
 
 const ProjectsPage = () => {
     useEffect(() => {
@@ -44,27 +70,37 @@ const ProjectsPage = () => {
     const projects = [
         {
             id: 1,
-            title: "Luxury Villa Renovation",
-            images: [Project1_1, Project1_2, Project1_3],
-            description: "A complete renovation of a luxury villa, including modern interiors and exteriors.",
+            title: "Mokopane House Project",
+            images: [MokImage2 ,MokImage1,MokImage3, MokImage4, MokImage5, MokImage6],
+            description: "We successfully completed a residential construction project in Mokopane, where we built a modern, durable house from the ground up. Our team managed every aspect of the build, from planning and design to construction and final touches. The result is a beautiful, functional home that meets the client's specifications and stands as a testament to our commitment to quality and attention to detail.",
         },
         {
             id: 2,
-            title: "Commercial Complex",
-            images: [Project2_1, Project2_2, Project2_3],
-            description: "Development of a commercial complex with state-of-the-art facilities and sustainable design.",
+            title: "Lephalale House Project",
+            images: [LepImage1, LepImage2, LepImage3],
+            description: "We successfully completed the construction of a new house in Lephalale. Our team handled everything from the initial design phase to the final construction, ensuring that every detail met the highest standards of quality. The result is a beautiful, sturdy home that perfectly suits the client's needs and enhances the local landscape of Lephalale.",
         },
         {
             id: 3,
-            title: "Modern Office Space",
-            images: [Project3_1, Project3_2, Project3_3],
-            description: "Design and build of a modern office space with a focus on productivity and aesthetics.",
+            title: "Woodprut Wildlife Estate Roofing",
+            images: [WoodImage1, WoodImage2, WoodImage3, WoodImage4, WoodImage5, WoodImage6, WoodImage7, WoodImage8, WoodImage9],
+            description: "We recently completed a roofing project in Woodprut Wildlife Estate, where we provided expert roofing services for a residential property. Our team ensured that the roofing was not only durable and weather-resistant but also aesthetically aligned with the natural surroundings of the estate. The result is a robust and visually appealing roof that complements the beauty of the wildlife estate while providing long-lasting protection.",
         },
         {
             id: 4,
-            title: "Residential Apartment",
-            images: [Project4_1, Project4_2, Project4_3],
-            description: "Construction of a residential apartment complex with high-end amenities.",
+            title: "Ealysras House Project",
+            images: [EalysrasImage1, EalysrasImage2],
+            description: "We recently completed the construction of a residential property in Ealysras. Our team took charge of the entire process, from planning and design to the final construction stages, ensuring that the house was built to the highest standards. The end result is a stylish and durable home that perfectly fits the client's vision and enhances the beauty of Ealysras.",
+        }, {
+            id: 5,
+            title: "Capetown House Project",
+            images: [CapetownImage1],
+            description: "We also completed a residential construction project in Cape Town. From concept to completion, our team delivered a high-quality home that combines modern design with practical functionality. The finished property not only meets the client's specific needs but also adds to the architectural beauty of the Cape Town area.",
+        }, {
+            id: 6,
+            title: "Gyani Limpopo Housing Project",
+            images: [GyaniImage1, GyaniImage2, GyaniImage3, GyaniImage4, GyaniImage5],
+            description: "We recently completed the construction of a new home in Gyani, Limpopo. Our team managed the project from the initial design phase through to the final build, ensuring that the house was crafted with precision and care. The result is a sturdy and elegant home that meets the client’s expectations and enhances the landscape of Gyani.",
         },
     ];
 
