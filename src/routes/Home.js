@@ -1,10 +1,8 @@
 import React from 'react';
-import HomePage from '../components/home'
+import HomePage from '../components/home';
 
-const Home = () => {
-    return (
+const Home = () => (
         <HomePage />
-    )
-}
+);
 
 export default Home;

@@ -3,10 +3,10 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        poppins: ["Poppins", "sans-serif"],
-        tang: ["Tangerine", "serif"],
-        ice: ["Iceberg", "sans-serif"],
-        nosi: ["Nosifer", "sans-serif"],
+        poppins: ['Poppins', 'sans-serif'],
+        tang: ['Tangerine', 'serif'],
+        ice: ['Iceberg', 'sans-serif'],
+        nosi: ['Nosifer', 'sans-serif'],
       },
       colors: {
         'olive-700': '#4A5D23',
@@ -19,4 +19,4 @@ module.exports = {
     },
   },
   plugins: [],
-}
+};

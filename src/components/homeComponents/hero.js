@@ -2,10 +2,9 @@ import React from 'react';
 import Hero from '../../assets/videos/hero.mp4';
 import '../../styles/HeroPage.css';
 import { FaFacebookF, FaTwitter, FaInstagram } from 'react-icons/fa';
-import { Link } from "react-router-dom"
+import { Link } from 'react-router-dom';
 
-const HeroPage = () => {
-  return (
+const HeroPage = () => (
     <section className="relative text-white h-screen flex flex-col items-center justify-center overflow-hidden">
       <video
         className="absolute inset-0 w-full h-full object-cover z-0"
@@ -59,7 +58,6 @@ const HeroPage = () => {
         </svg>
       </div>
     </section>
-  );
-};
+);
 
 export default HeroPage;

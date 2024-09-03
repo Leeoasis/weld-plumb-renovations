@@ -1,8 +1,8 @@
-import React from 'react';
-import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa';
+import {
+  FaFacebook, FaTwitter, FaInstagram, FaLinkedin,
+} from 'react-icons/fa';
 
-const Footer = () => {
-  return (
+const Footer = () => (
     <footer className="bg-orange-900 text-white py-10">
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row justify-between items-center">
@@ -45,7 +45,6 @@ const Footer = () => {
         </div>
       </div>
     </footer>
-  );
-};
+);
 
 export default Footer;

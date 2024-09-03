@@ -1,50 +1,52 @@
-import React, { useEffect, useRef } from "react";
-import { FaWrench, FaPaintRoller, FaHammer, FaTools } from "react-icons/fa";
-import AOS from "aos";
-import "aos/dist/aos.css";
-import "animate.css";
-import "../styles/servicesPage.css";
+import React, { useEffect, useRef } from 'react';
+import {
+  FaWrench, FaPaintRoller, FaHammer, FaTools,
+} from 'react-icons/fa';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import 'animate.css';
+import '../styles/servicesPage.css';
 
 // Import images
-import PlumbingImage from "../assets/images/Plumbing.jpeg";
-import WeldingImage from "../assets/images/Welding.jpeg";
-import PaintingImage from "../assets/images/painting.jpeg";
-import RenovationImage from "../assets/images/Renovation.jpeg";
-import WhyImage from "../assets/images/contactimage.jpeg";
+import PlumbingImage from '../assets/images/Plumbing.jpeg';
+import WeldingImage from '../assets/images/Welding.jpeg';
+import PaintingImage from '../assets/images/painting.jpeg';
+import RenovationImage from '../assets/images/Renovation.jpeg';
+import WhyImage from '../assets/images/contactimage.jpeg';
 
 const ServicesPage = () => {
-    useEffect(() => {
-        AOS.init({ duration: 1200, once: false });
-    }, []);
+  useEffect(() => {
+    AOS.init({ duration: 1200, once: false });
+  }, []);
 
-    const sectionRef = useRef(null);
+  const sectionRef = useRef(null);
 
-    useEffect(() => {
-        const observer = new IntersectionObserver(
-            (entries) => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        entry.target.classList.add('in-view');
-                    } else {
-                        entry.target.classList.remove('in-view');
-                    }
-                });
-            },
-            { threshold: 0.1 }
-        );
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('in-view');
+          } else {
+            entry.target.classList.remove('in-view');
+          }
+        });
+      },
+      { threshold: 0.1 },
+    );
 
-        if (sectionRef.current) {
-            observer.observe(sectionRef.current);
-        }
+    if (sectionRef.current) {
+      observer.observe(sectionRef.current);
+    }
 
-        return () => {
-            if (sectionRef.current) {
-                observer.unobserve(sectionRef.current);
-            }
-        };
-    }, []);
+    return () => {
+      if (sectionRef.current) {
+        observer.unobserve(sectionRef.current);
+      }
+    };
+  }, []);
 
-    return (
+  return (
         <div
         className="services-page"
         >
@@ -96,8 +98,7 @@ const ServicesPage = () => {
                 </div>
             </section>
 
-
-            {/* Service Details Section */}            
+            {/* Service Details Section */}
             <section className="py-20 bg-white">
                 <div className="container mx-auto px-6">
                     <h2 className="text-4xl font-bold text-center text-orange-700 mb-16 animate__animated animate__fadeInUp">Service Details</h2>
@@ -157,7 +158,7 @@ const ServicesPage = () => {
                 </div>
             </section>
         </div>
-    );
+  );
 };
 
 export default ServicesPage;

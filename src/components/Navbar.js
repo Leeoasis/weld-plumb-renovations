@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
-import { useLocation } from 'react-router-dom'; 
+import { useLocation } from 'react-router-dom';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -15,9 +15,9 @@ const Navbar = () => {
   };
 
   // Determine if the link is active
-  const isActive = (path) => location.pathname === path || (path === '/' && location.pathname === '/') ? 
-    'bg-yellow-500 text-white border-2 border-yellow-500 py-2 px-4 rounded-md' : 
-    'text-gray-300 hover:bg-gray-700 hover:text-white py-2 px-4 rounded-md';
+  const isActive = (path) => (location.pathname === path || (path === '/' && location.pathname === '/')
+    ? 'bg-yellow-500 text-white border-2 border-yellow-500 py-2 px-4 rounded-md'
+    : 'text-gray-300 hover:bg-gray-700 hover:text-white py-2 px-4 rounded-md');
 
   return (
     <nav className="bg-orange-700 text-white">

@@ -1,37 +1,37 @@
-import React, { useEffect, useRef } from "react";
-import { FaToolbox, FaLightbulb, FaHandsHelping } from "react-icons/fa";
-import WhyImage from "../../assets/images/choose.jpeg";
-import "../../styles/chooseUs.css";
+import React, { useEffect, useRef } from 'react';
+import { FaToolbox, FaLightbulb, FaHandsHelping } from 'react-icons/fa';
+import WhyImage from '../../assets/images/choose.jpeg';
+import '../../styles/chooseUs.css';
 
 const ChooseUs = () => {
-    const sectionRef = useRef(null);
+  const sectionRef = useRef(null);
 
-    useEffect(() => {
-        const observer = new IntersectionObserver(
-            (entries) => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        entry.target.classList.add('in-view');
-                    } else {
-                        entry.target.classList.remove('in-view');
-                    }
-                });
-            },
-            { threshold: 0.1 }
-        );
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('in-view');
+          } else {
+            entry.target.classList.remove('in-view');
+          }
+        });
+      },
+      { threshold: 0.1 },
+    );
 
-        if (sectionRef.current) {
-            observer.observe(sectionRef.current);
-        }
+    if (sectionRef.current) {
+      observer.observe(sectionRef.current);
+    }
 
-        return () => {
-            if (sectionRef.current) {
-                observer.unobserve(sectionRef.current);
-            }
-        };
-    }, []);
+    return () => {
+      if (sectionRef.current) {
+        observer.unobserve(sectionRef.current);
+      }
+    };
+  }, []);
 
-    return (
+  return (
         <div
             ref={sectionRef}
             className="relative bg-gray-100 py-20 overflow-hidden"
@@ -66,7 +66,7 @@ const ChooseUs = () => {
                 </div>
             </div>
         </div>
-    );
+  );
 };
 
 export default ChooseUs;

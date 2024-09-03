@@ -1,16 +1,16 @@
-import React, { useEffect, useRef } from "react";
-import Services from "../../assets/images/Plumbing.jpeg";
-import "../../styles/recentProjects.css"
+import React, { useEffect, useRef } from 'react';
+import Services from '../../assets/images/Plumbing.jpeg';
+import '../../styles/recentProjects.css';
 
 // Image Imports
 // Mokopane
-import MokImage1 from "../../assets/images/projects/Mokopane/mok1.jpg"
+import MokImage1 from '../../assets/images/projects/Mokopane/mok1.jpg';
 
 // Woodprut Wildlife Estate
-import WoodImage1 from "../../assets/images/projects/wildEstate/wild4.jpg"
+import WoodImage1 from '../../assets/images/projects/wildEstate/wild4.jpg';
 
 // Lephalale
-import LepImage1 from "../../assets/images/projects/Lephalale/lep2.jpg"
+import LepImage1 from '../../assets/images/projects/Lephalale/lep2.jpg';
 
 const RecentProjects = () => {
   const sectionRef = useRef(null);
@@ -20,11 +20,11 @@ const RecentProjects = () => {
       (entries) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
-            entry.target.classList.add("in-view");
+            entry.target.classList.add('in-view');
           }
         });
       },
-      { threshold: 0.1 }
+      { threshold: 0.1 },
     );
 
     if (sectionRef.current) {
@@ -43,7 +43,7 @@ const RecentProjects = () => {
     <section
       ref={sectionRef}
       className="relative py-20 overflow-hidden"
-      style={{ backgroundImage: `url(${Services})`, backgroundSize: "cover", backgroundPosition: "center" }}
+      style={{ backgroundImage: `url(${Services})`, backgroundSize: 'cover', backgroundPosition: 'center' }}
     >
       <div className="absolute inset-0 bg-gradient-to-t from-gray-900 to-transparent opacity-60"></div>
       <div className="container mx-auto px-6 relative z-10">

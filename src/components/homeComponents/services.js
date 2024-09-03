@@ -1,10 +1,11 @@
-import React from "react";
-import Services from "../../assets/images/Plumbing.jpeg";
-import { FaWrench, FaPaintRoller, FaHammer, FaTools } from "react-icons/fa";
-import "../../styles/homeServices.css";
+import React from 'react';
+import {
+  FaWrench, FaPaintRoller, FaHammer, FaTools,
+} from 'react-icons/fa';
+import Services from '../../assets/images/Plumbing.jpeg';
+import '../../styles/homeServices.css';
 
-const HomeServices = () => {
-    return (
+const HomeServices = () => (
         <section className="relative py-20" style={{ backgroundImage: `url(${Services})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
             <div className="absolute inset-0 bg-gradient-to-t from-gray-900 to-transparent opacity-60"></div>
             <div className="container mx-auto px-6 relative z-10">
@@ -47,7 +48,6 @@ const HomeServices = () => {
                 </div>
             </div>
         </section>
-    );
-};
+);
 
 export default HomeServices;

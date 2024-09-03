@@ -1,10 +1,8 @@
 import React from 'react';
-import ProjectsPage from '../components/projectsPage'
+import ProjectsPage from '../components/projectsPage';
 
-const Projects = () => {
-    return (
+const Projects = () => (
         <ProjectsPage />
-    )
-}
+);
 
 export default Projects;

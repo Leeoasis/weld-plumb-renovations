@@ -1,8 +1,7 @@
-import React from "react";
-import WhyImage from "../../assets/images/contactimage.jpeg";
+import React from 'react';
+import WhyImage from '../../assets/images/contactimage.jpeg';
 
-const ContactUs = () => {
-    return (
+const ContactUs = () => (
         <section className="relative bg-gray-100 py-20" style={{ backgroundImage: `url(${WhyImage})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
             <div className="absolute inset-0 bg-olive-green-gradient opacity-60"></div>
 
@@ -47,7 +46,6 @@ const ContactUs = () => {
                 </div>
             </div>
         </section>
-    )
-}
+);
 
 export default ContactUs;

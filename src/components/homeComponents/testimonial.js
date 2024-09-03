@@ -1,10 +1,9 @@
-import React from "react";
-import Services from "../../assets/images/Plumbing.jpeg";
-import "../../styles/testimonials.css"
-import Person from "../../assets/images/person1.jpeg"
+import React from 'react';
+import Services from '../../assets/images/Plumbing.jpeg';
+import '../../styles/testimonials.css';
+import Person from '../../assets/images/person1.jpeg';
 
-const Testimonial = () => {
-    return (
+const Testimonial = () => (
         <section className="relative bg-gray-100 py-20" style={{ backgroundImage: `url(${Services})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
             <div className="absolute inset-0 bg-gradient-to-t from-gray-900 to-transparent opacity-60"></div>
             <div className="container mx-auto px-6 relative z-10">
@@ -35,7 +34,6 @@ const Testimonial = () => {
                 </div>
             </div>
         </section>
-    );
-}
+);
 
 export default Testimonial;
