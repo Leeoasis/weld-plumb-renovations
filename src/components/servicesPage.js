@@ -8,7 +8,7 @@ import "../styles/servicesPage.css";
 // Import images
 import PlumbingImage from "../assets/images/Plumbing.jpeg";
 import WeldingImage from "../assets/images/Welding.jpeg";
-import PaintingImage from "../assets/images/Painting.jpeg";
+import PaintingImage from "../assets/images/painting.jpeg";
 import RenovationImage from "../assets/images/Renovation.jpeg";
 import WhyImage from "../assets/images/contactimage.jpeg";
 
