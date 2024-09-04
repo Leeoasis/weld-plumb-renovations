@@ -36,10 +36,10 @@ const HeroPage = () => (
               </button>
             </Link>
           </div>
-          <div className="mt-8 text-lg md:text-xl">
+          {/* <div className="mt-8 text-lg md:text-xl">
             <p>Discover how our expertise can make a difference. Contact us for a consultation or explore our services.</p>
-          </div>
-          <div className="mt-8 flex justify-center gap-4">
+          </div> */}
+          {/* <div className="mt-8 flex justify-center gap-4">
             <a href="https://facebook.com" className="text-white hover:text-gray-300">
               <FaFacebookF size={24} />
             </a>
@@ -49,7 +49,7 @@ const HeroPage = () => (
             <a href="https://instagram.com" className="text-white hover:text-gray-300">
               <FaInstagram size={24} />
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="absolute bottom-6 z-20 animate-bounce animate-floaty">
