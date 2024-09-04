@@ -52,7 +52,6 @@ const Navbar = () => {
             <a href="/projects" className={`block px-6 py-3 text-lg font-semibold rounded-md ${isActive('/projects')}`} onClick={closeMenu}>
               Projects
             </a>
-           
             <a href="/contact" className={`block px-6 py-3 text-lg font-semibold rounded-md ${isActive('/contact')}`} onClick={closeMenu}>
               Contact
             </a>
