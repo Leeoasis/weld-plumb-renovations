@@ -46,16 +46,16 @@ const Navbar = () => {
             <a href="/" className={`block px-6 py-3 text-lg font-semibold rounded-md ${isActive('/')}`} onClick={closeMenu}>
               Home
             </a>
-            <a href="#services" className={`block px-6 py-3 text-lg font-semibold rounded-md ${isActive('/services')}`} onClick={closeMenu}>
+            <a href="/services" className={`block px-6 py-3 text-lg font-semibold rounded-md ${isActive('/services')}`} onClick={closeMenu}>
               Services
             </a>
-            <a href="#projects" className={`block px-6 py-3 text-lg font-semibold rounded-md ${isActive('/projects')}`} onClick={closeMenu}>
+            <a href="/projects" className={`block px-6 py-3 text-lg font-semibold rounded-md ${isActive('/projects')}`} onClick={closeMenu}>
               Projects
             </a>
-            <a href="#testimonials" className={`block px-6 py-3 text-lg font-semibold rounded-md ${isActive('/testimonials')}`} onClick={closeMenu}>
+            <a href="/testimonials" className={`block px-6 py-3 text-lg font-semibold rounded-md ${isActive('/testimonials')}`} onClick={closeMenu}>
               Testimonials
             </a>
-            <a href="#contact" className={`block px-6 py-3 text-lg font-semibold rounded-md ${isActive('/contact')}`} onClick={closeMenu}>
+            <a href="/contact" className={`block px-6 py-3 text-lg font-semibold rounded-md ${isActive('/contact')}`} onClick={closeMenu}>
               Contact
             </a>
           </div>
