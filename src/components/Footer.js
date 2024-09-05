@@ -7,7 +7,7 @@ const Footer = () => (
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="text-center md:text-left">
-            <h5 className="text-xl font-bold mb-2">Cruzy Projects</h5>
+            <h5 className="text-xl font-bold mb-2">Weldplumb Renovations</h5>
             <p>© 2024 All rights reserved.</p>
             <p className="mt-2">2 Settler's drive, Edgemead</p>
             <p>Phone: +27683880693</p>
